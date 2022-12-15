@@ -1,0 +1,27 @@
+ *{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+ .text{
+ 	color: white;
+ 	background: gray;
+ 	display: grid;
+ 	place-items: center;
+ }
+ .box-grid{
+ 	margin: 30px;
+ 	display: grid;
+ 	place-items:center;
+ }
+ .grid-container{
+ 	height: auto;
+ 	width: 80%;
+ 	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr;
+ 	grid-template-rows: auto;
+ 	background: white;
+ }
+ .img-container{
+ 	width: 300px;
+ 	height: 300px;
+ }

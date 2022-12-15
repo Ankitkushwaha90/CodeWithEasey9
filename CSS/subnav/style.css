@@ -1,0 +1,38 @@
+
+	.boxcode{  
+		color: black;
+		font-size: 20px;
+		font-family: serif;
+	}
+	.innerbox{ 
+		padding-left: 100px;
+		color: white;
+		height: auto; 
+	}
+		/*.inline{
+		font-size: 20px;
+		color: white;
+	}*/
+	.forspan{
+		color: blue;
+	}
+
+	@media(max-width: 500px){
+		.boxcode{  
+		color: black;
+		font-size: 17px;
+		font-family: serif;
+	}
+	.innerbox{
+		text-indent: 100px;
+		color: white;
+	}
+		.inline{
+		font-size: 17px;
+		color: white;
+	}
+	.forspan{
+		color: blue;
+	}
+
+	}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<h1 id="space2">hello</h1>
+	<h1 idtr="space2">&nbsp;  &nbsp; hello</h1>
+	<h2 idtr="space2">&nbsp;  &nbsp; hello</h2>
+
+
+	<script type="text/javascript">
+		 
+		const indent2Data = `<span> &nbsp;  &nbsp; </span>`; 
+
+		const space2 = document.getElementById("#space2");  
+ 		 
+   		space2.insertAdjacentHTML('afterbegin', indent2Data);
+	</script>
+
+</body>
+</html>

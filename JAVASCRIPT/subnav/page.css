@@ -1,0 +1,189 @@
+.textcontentsyntax{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 40px auto;
+}
+.tcs1a{
+    color: rgb(0, 255, 34);
+    border-right: 3px solid white;
+    padding: auto 0px;
+    margin: auto 0px;
+    cursor: default;
+    white-space: nowrap;
+    z-index: 1;
+}
+.a3{
+    z-index: 2;
+}
+.psss{
+    font-size: 18px;
+    color: gray;
+    margin: 25px 0;
+}
+.tcs2b{
+    margin: 3px 0;
+
+}
+.bluee{
+    color:rgb(0, 162, 255);
+}
+.grayee{
+    color:rgb(173, 204, 0);
+}
+.purple{
+    color: purple;
+}
+.wht{
+    color: white;
+}
+.graya{
+    color: gray;
+}
+.blue{
+    color: rgb(0, 255, 34);
+}
+.CodeMirror-gutter-elt {
+    position: absolute;
+    cursor: default;
+    z-index: 4;
+}
+.CodeMirror-linenumber {
+    padding: 0 3px 0 5px;
+    min-width: 20px;
+    text-align: right;
+    color: #999;
+    white-space: nowrap;
+}
+/* try  */
+/* 
+element.style {
+    left: 0px;
+    width: 21px;
+}
+.cm-s-monokai .CodeMirror-linenumber {
+    color: #d0d0d0;
+}
+.CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.CodeMirror-gutter-elt {
+    position: absolute;
+    cursor: default;
+    z-index: 4;
+}
+.CodeMirror-linenumber {
+    padding: 0 3px 0 5px;
+    min-width: 20px;
+    text-align: right;
+    color: #999;
+    white-space: nowrap;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.CodeMirror-lines {
+    cursor: text;
+    min-height: 1px;
+}
+.cm-s-monokai.CodeMirror {
+    background: #272822;
+    color: #f8f8f2;
+}
+.CodeMirror {
+    font-family: monospace;
+    height: 300px;
+    color: #000;
+    direction: ltr;
+}
+body {
+    font-family: Inter,proxima-nova,Roboto,Arial,sans-serif;
+    color: #333943;
+    padding-top: 110px;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --white: #fff;
+    --white-smoke: #f5f5f5;
+    --sand: #f7f7f7;
+    --alice-blue: #f1f5fa;
+    --blue-gray: #edf2f5;
+    --whisper: #ececec;
+    --light-gray: #cbcbcb;
+    --nobel: #a3a3a3;
+    --bright-gray: #4a5360;
+    --gray: #333943;
+    --gray-east-bay: #405c7c;
+    --midnight: #23303f;
+    --space-gray: #202a35;
+    --graphite: #1f2124;
+    --dodger-blue: #041b33;
+    --turquoise: #3dcae0;
+    --pale-blue: #a1cbf9;
+    --tw-blue: #55acee;
+    --blue: #1aafff;
+    --spring: #179de5;
+    --in-blue: #007ab6;
+    --link: #0369d7;
+    --fb-blue: #415e9b;
+    --git-blue: #071224;
+    --light-git-blue: #041536;
+    --dark-blue: #142336;
+    --aws-blue: #0d1d2d;
+    --night-blue: #142434;
+    --old-green: #20d15f;
+Show All Properties (24 more)
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.CodeMirror-gutter-wrapper ::selection {
+    background-color: transparent;
+} */
+/*  */

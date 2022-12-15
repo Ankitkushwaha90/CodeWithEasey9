@@ -1,0 +1,46 @@
+		.navcss ul .JAVASCRIPTactive{
+					font-size: 18px;font-family: sans-serif;
+					text-decoration-line: none;
+					color: white;
+					margin-left: 20px;
+					border: 2px solid #18d5bb;
+					background: #18d5bb;
+					border-radius: 0px;
+					padding: 5px;
+		} 
+	.boxcode{  
+		color: black;
+		font-size: 20px;
+		font-family: serif;
+	}
+	.innerbox{
+		text-indent: 100px;
+		color: white;
+	}
+		/*.inline{
+		font-size: 20px;
+		color: white;
+	}*/
+	.forspan{
+		color: blue;
+	}
+
+	@media(max-width: 500px){
+		.boxcode{  
+		color: black;
+		font-size: 17px;
+		font-family: serif;
+	}
+	.innerbox{
+		text-indent: 100px;
+		color: white;
+	}
+		.inline{
+		font-size: 17px;
+		color: white;
+	}
+	.forspan{
+		color: blue;
+	}
+
+	}

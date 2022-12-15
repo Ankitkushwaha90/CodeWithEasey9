@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{font-family: 'Roboto', sans-serif;
+}.fa-facebook{color:black;}
+.fa-facebook:hover{color: blue;}
+.fa-instagram{color:black;}
+.fa-instagram:hover{color: orange;}
+.fa-youtube{color:black;}
+.fa-youtube:hover{color: red;}
+.searchinput1{
+	position: relative;
+	left: 380px;
+	width: 700px;
+	font-size: 20px;
+	color: red;
+	padding: 20px;
+	border-radius: 10px;
+	border-color: 3px solid blue;
+	height: 50px;
+}
+.searchinput1:hover{
+	position: relative;
+	left: 380px;
+	width: 700px;
+	font-size: 20px;
+	color: red;
+	padding: 20px;
+	border-radius: 10px;
+	box-decoration-break: none;
+	box-decoration: none;
+	border-color: 3px solid blue;
+	height: 50px;
+}
+@media(max-width: 1125px){ .searchinput1{ 
+	width: 600px; 
+}
+.searchinput1:hover{ 
+	width: 600px; 
+}
+}
+@media(max-width: 1122px){
+ .searchinput1{ 
+	width: 400px; 
+}
+.searchinput1:hover{ 
+	width: 400px; 
+} 
+}
+@media(max-width: 1130px){
+ .searchinput1{ 
+	width: 300px; 
+}
+.searchinput1:hover{ 
+	width: 300px; 
+} 
+}
+@media(max-width: 934px){ 
+	 .searchinput1{ 
+	visibility: hidden;
+	position: absolute;	 
+	display: none;
+} 
+}
+ 
+.headercss{
+	width: auto;
+	background: white;
+	height: 50px; 
+}
+@media (min-width: 500px) {
+	.centerh{ 
+		display: flex;
+		position: absolute;
+		align-items: center;
+		left: 30%;
+}
+}
+		.centerh a{ 
+	text-decoration: none;
+}
+.box{ 
+	background: rgb(255, 255, 255);
+	height: 50px;
+	color: rgb(0, 0, 0);
+	width: 100px;
+	padding: 16px;
+	font-size: 17px;
+	font-weight: bold;
+	cursor: pointer;
+}.box:hover{ 
+	background: rgb(117, 219, 151);
+	height: 50px;
+	color: rgb(255, 255, 255);
+	width: 100px;
+	padding: 16px;
+	font-size: 17px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.inline .inlineb{
+	float: right; 
+	padding-top: 8px;
+	z-index: 2;
+	padding-right: 80px;
+	cursor: pointer;
+}
+.inline .inlineb i{
+	padding-left: 6px;
+	padding-right: 6px; 
+}
+.headercss p{
+	
+	font-size: 25px;
+	margin: 5px;
+	color: black;
+	position: absolute;
+}
+ 
+@media(max-width: 600px){ 
+	.inlinea{
+		visibility: hidden;
+		position: absolute;
+		left: -100px;
+		display: none;
+}
+.centerh{ 
+		display: flex;
+		position: absolute;
+		align-items: center;
+}	.centerh a{ 
+	text-decoration: none;
+}
+.box{ 
+	background: rgb(255, 254, 254);
+	height: 50px;
+	color: rgb(0, 0, 0);
+	width: 100px;
+	padding: 16px;
+	font-size: 17px;
+	font-weight: bold;
+	cursor: pointer;
+}.box:hover{ 
+	background: rgb(145, 224, 162);
+	height: 50px;
+	color: rgb(255, 255, 255);
+	width: 100px;
+	padding: 16px;
+	font-size: 17px;
+	font-weight: bold;
+	cursor: pointer;
+}
+}
+@media(max-width: 500px){
+ .inline .inlineb{
+	float: right; 
+	padding-top: 8px;
+	padding-right: 8px;
+	cursor: pointer;
+}
+.centerh{
+	position: absolute;
+}
+}
+
+
+@media(max-width: 330px){ 
+	.headercss p{ 
+	font-size: 20px;
+}
+}
+
+@media(max-width: 308px){ 
+	.headercss p{ 
+	font-size: 19px;
+	margin: 5px 5px;
+	position: absolute;
+}
+.box{ 
+		background: rgb(255, 255, 255);
+		height: 50px;
+		color: rgb(0, 0, 0);
+		width: 90px;
+		padding: 16px;
+		font-size: 17px;
+		font-weight: bold;
+		cursor: pointer;
+}
+}
+ 

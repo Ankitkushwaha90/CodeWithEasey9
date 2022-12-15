@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="subnav/style.css">
+	<link rel="stylesheet" type="text/css" href="../page/page.css">
+	<link rel="stylesheet" type="text/css" href="subnav/subnav.css">
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="stylesheet" type="text/css" href="../nav/nav.css">
+	<link rel="stylesheet" type="text/css" href="../main/main.css">
+	<link rel="stylesheet" type="text/css" href="../footer/footer.css">
+	<link rel="stylesheet" type="text/css" href="../header/header.css">
+	<link rel="stylesheet" type="text/css" href="../scroller/scroller.css">
+	<link rel="stylesheet" type="text/css" href="subnav/subnav.css">
+	<link rel="stylesheet" type="text/css" href="../subnav1/subnav1.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+ 	
+ 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- main tag for change////////////////////////////////////////////////// -->
+
+
+	<title class="headtitle">Introduction of CSS</title>
+	<meta name="Keywords" content="HTML,CSS,JavaScript">
+	<meta class="basetitle" name="Description" content=""> 
+	<style>
+	
+		.Introductioncss{
+				display: block;
+				text-align: center;
+				text-decoration-line: none;
+				font-family: 'Montserrat', sans-serif;
+				color:  #fff;
+				font-size: 17px;
+				background:  #18d5bb;
+				padding-top: 3px;
+				padding-bottom: 3px;
+				margin: 0px;
+		}
+	</style>
+
+	<!-- main two tag for change -------------------------------------- -->
+
+	
+	<script src="../footer/footer.js"></script>
+	<script src="../header/header.js"></script>
+	<script src="../nav/nav.js"></script>
+	<script src="../div2/div2.js"></script>
+	<script src="../subnav1/subnav1.js"></script>
+	<script src="subnav/subnav.js"></script>
+	<script src="../style/jquery-3.5.1.min.js"></script>
+</head>
+<script>
+		function goBack(){
+			window.history.back();
+		}
+	</script>
+	<script>
+		function gonext() {
+		  window.history.forward();
+		}	
+	</script>
+	<script>
+
+		$(document).ready(function(){
+			$('#menuid').click(function(){
+				$('#dividid').toggle(500);
+			});
+		});
+	</script>
+	<style>
+		#menudivv{
+			visibility: visible;
+		}
+	
+		.classid{
+			display: show;
+			color: red;
+	}
+
+	</style>
+
+	<script>
+
+		$(document).ready(function(){
+			$("#idhome").click(function(){
+ 				 $("#ulcssab").toggle(500);
+			});
+		});
+	</script>
+
+<body> 
+
+	<header class="headercss">
+	</header>
+	<nav class="navcss">
+
+		
+	</nav>
+	<main class="maincss">
+
+		<div class="div1" id="dividid">
+			
+		</div>
+		
+		<div class="div2 "><!-- scrollbar scrollbar-black bordered-black square thin -->
+ 				<div class="force-overflow">
+				<div class="div22">
+					<div class="div2a">
+						
+						<h1 class="h1css">Introduction of CSS (Cascading Style Sheet)</h1>
+						<div class="btndb">
+							<button class="btnab" onclick="goBack()"> < Previous</button>
+							<button class="btnab" onclick="gonext()">Next > </button>
+							
+						</div>
+						<div class="boxgap"></div>
+						<div class="linecssa">
+							
+						</div>
+						
+						<h2 class="h2css">Create Awesome Image</h2>
+						<p class="pcss"> how create images awesome</p>
+
+						<div class="boxgap">
+							
+						</div>
+
+						<p class="pcss">Create image </p>
+						<style>
+
+
+
+						/*/////////////////////////////////////////////////////*/
+.card{
+	width: 330px;
+	height: 350px;
+	background-color: aliceblue; 
+	border-radius: 5px;
+	position: relative;
+	box-shadow: 0 3px 10px -2px  rgba(255, 255, 255, 0.2);
+}
+
+.card::before,
+.card::after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0%;
+	right: 0%;
+	background-color: white;
+	z-index: -1;
+	transition: 0.2s;
+}
+.card:hover::before{
+	transform: rotate(20deg);
+	box-shadow: rgba(213, 213, 219, 0.25) 0px 50px 50px -40px,
+	rgba(156, 154, 154, 0.3) 0px 30px 40px -30px,
+	rgba(74, 128, 182, 0.35) 0px -2px 6px 0px inset;
+	
+}
+
+.card:hover::after{
+	transform: rotate(-20deg);
+	box-shadow: rgba(213, 213, 219, 0.25) 0px 50px 50px -40px,
+	rgba(156, 154, 154, 0.3) 0px 30px 40px -30px,
+	rgba(74, 128, 182, 0.35) 0px -2px 6px 0px inset;
+}
+.img-container{
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	transition: 0.2s;
+	z-index: 2;
+}.card:hover .img-container{
+	position: absolute;
+	bottom: 80px;
+}
+
+img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.details{
+	position: absolute; 
+	bottom: 10px;
+	right: 10px;
+	left: 10px;
+	text-align: center;
+	height: 60px;
+}
+h2{
+	font-weight: bold;
+	color: rgb(110, 110, 110);
+}
+p{
+	color: rgb(185, 108, 108);
+}
+.containeraddjest{
+	display: grid;
+	place-items: center;
+	
+	box-shadow: 0px 10px 20px -6px black;
+	z-index: -7;
+	padding: 50px;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+@media(max-width: 500px){
+	.details{
+	position: absolute; 
+	padding-top: 40px;
+	bottom: 10px;
+	right: 10px;
+	left: 10px;
+	text-align: center;
+	height: 60px;
+}
+							img{
+								position: absolute;
+								top: 0;
+								left: 0;
+								width: 90%;
+								height: 80%;
+								object-fit: cover;
+							}
+							.containeraddjest{
+											display: grid;
+											place-items: center;
+											
+											box-shadow: 0px 10px 20px -6px black;
+											z-index: -7;
+											padding: 0;
+											width: 100%;
+										}
+							.img-container{
+										width: 100%;
+										position: absolute;
+										top: 10px;
+										bottom: 10px;
+										left: 2%;
+										right: 2%;
+										transition: 0.2s;
+										z-index: 2;
+									}.card:hover .img-container{
+										position: absolute;
+										bottom: 10%;
+									}
+							.card{
+									width: 90%;
+									height: 400px;
+									background-color: aliceblue; 
+									border-radius: 5px;
+									position: relative;
+									box-shadow: 0 3px 10px -2px  rgba(255, 255, 255, 0.2);
+								}
+						}@media(max-width: 300px){
+							.card{
+									width: 90%;
+									height: 300px;
+									background-color: aliceblue; 
+									border-radius: 5px;
+									position: relative;
+									box-shadow: 0 3px 10px -2px  rgba(255, 255, 255, 0.2);
+								}
+						}
+
+
+
+						</style>
+
+						<div class="containeraddjest">
+								<div class="card">
+									<div class="img-container">
+										<img src="img.jpg" alt="MASK pic" height="100%" width="100%">
+									</div>
+									<div class="details">
+										<h2>ALWAYS WEAR MASK</h2>
+										<p>INFLUENCER</p>
+										
+									</div>
+									
+								</div>
+								<center><h1 class="h1css">Awesome animation by CSS</h1></center>
+						</div>
+						<div class="boxgap"></div>
+					
+
+
+
+						<h2 class="h2css">Awesome animation by CSS</h2>
+						<div class="a1">
+							<div class="a2">
+								<button class="btna1">copy</button>
+							</div>
+							<div class="a33">
+								<div class="codetexta4">
+									
+									<div>
+
+
+										<div>
+										<tr><td class="haa"><span class="html-doctype">&lt;!DOCTYPE html&gt;</span></td></tr>
+										</div>
+
+
+
+										<div class="">
+										<tr><span class="html-tag ha1">&lt;<span class="ha2">html<span><span class="ha1">&gt;</span></span></tr><br>
+										</div>
+
+
+
+
+									<div class="iai headt">
+										<tr><span class="html-tag ha1">&lt;<span class="ha2">head<span><span class="ha1">&gt;</span></span></tr><br>
+									</div>
+
+
+
+									<div class="iai1">
+										<tr><span class="html-tag ha1">&lt;<span class="ha2">title<span><span class="ha1">&gt;</span></span></tr>
+									<span class="ai1"> code text</span>
+											<tr><span class="html-tag ha1">&lt;/<span class="ha2">title<span><span class="ha1">&gt;</span></span><span class="ha1  html-end-of-file"></span></tr><br>
+									</div>
+
+									<div class="iai headb">
+											<tr><span class="html-tag ha1">&lt;/<span class="ha2">head<span><span class="ha1">&gt;</span></span><span class="ha1  html-end-of-file"></span></tr><br>
+									</div>
+									
+
+
+									<div class="iai headt">
+										<tr><span class="html-tag ha1">&lt;<span class="ha2">style<span><span class="ha1">&gt;</span></span></tr><br>
+									</div>
+
+									<div class="boxcode">
+
+
+										<div class="iai2">.card{ </div>
+										 	<div class="innerbox">
+										 			width: 330px;<br>
+	height: 350px;<br>
+	background-color: aliceblue; <br>
+	border-radius: 5px;<br>
+	position: relative;<br>
+	box-shadow: 0 3px 10px -2px  rgba(255, 255, 255, 0.2);<br>
+										 		
+										 	</div>
+										<div class="iai2">}</div>
+								
+										<div  class="iai2">.card::before,</div>
+										<div  class="iai2">.card::after{</div>
+											<div class="innerbox">
+											 content: "";<br>
+	position: absolute;<br>
+	width: 100%;<br>
+	height: 100%;<br>
+	top: 0;<br>
+	bottom: 0;<br>
+	left: 0%;<br>
+	right: 0%;<br>
+	background-color: white;<br>
+	z-index: -1;<br>
+	transition: 0.2s;<br>
+											</div>
+										<div class="iai2">}</div>
+										
+
+										<div  class="iai2">.card:hover::before{</div>
+											<div class="innerbox">
+												 transform: rotate(20deg);<br>
+	box-shadow: rgba(213, 213, 219, 0.25) 0px 50px 50px -40px,<br>
+	rgba(156, 154, 154, 0.3) 0px 30px 40px -30px,<br>
+	rgba(74, 128, 182, 0.35) 0px -2px 6px 0px inset;<br>
+											</div>
+										<div class="iai2">}</div>
+
+
+
+										<div  class="iai2">.card:hover::after{</div>
+											<div class="innerbox">
+												 	transform: rotate(-20deg);<br>
+	box-shadow: rgba(213, 213, 219, 0.25) 0px 50px 50px -40px,<br>
+	rgba(156, 154, 154, 0.3) 0px 30px 40px -30px,<br>
+	rgba(74, 128, 182, 0.35) 0px -2px 6px 0px inset;<br> 
+											</div>
+										<div class="iai2">}</div> 
+												
+   												
+										<div  class="iai2">.img-container{</div>
+											<div class="innerbox">
+												 	position: absolute;<br>
+	top: 10px;<br>
+	bottom: 10px;<br>
+	left: 10px;<br>
+	right: 10px;<br>
+	transition: 0.2s;<br>
+	z-index: 2;<br>
+											</div>
+										<div class="iai2">}</div>
+
+   
+										<div  class="iai2">.img-container{</div>
+											<div class="innerbox">
+												 	position: absolute;
+	top: 10px;<br>
+	bottom: 10px;<br>
+	left: 10px;<br>
+	right: 10px;<br>
+	transition: 0.2s;<br>
+	z-index: 2;<br>
+											</div>
+										<div class="iai2">}</div>
+
+   
+										<div  class="iai2">.card:hover .img-container{</div>
+											<div class="innerbox">
+												 
+	position: absolute;<br>
+	bottom: 80px;<br>
+											</div>
+										<div class="iai2">}</div>
+
+   
+										<div  class="iai2">img{</div>
+											<div class="innerbox">
+												 	position: absolute;
+	top: 0;<br>
+	left: 0;<br>
+	width: 100%;<br>
+	height: 100%;<br>
+	object-fit: cover;<br>
+											</div>
+										<div class="iai2">}</div>
+
+   
+										<div  class="iai2">.details{</div>
+											<div class="innerbox">
+												 	position: absolute; 
+	bottom: 10px;<br>
+	right: 10px;<br>
+	left: 10px;<br>
+	text-align: center;<br>
+	height: 60px;<br>
+											</div>
+										<div class="iai2">}</div>
+
+   
+										<div  class="iai2">p{</div>
+											<div class="innerbox"> 
+
+
+	color: rgb(185, 108, 108);<br>
+											</div>
+										<div class="iai2">}</div>
+										<div  class="iai2">h2{</div>
+											<div class="innerbox">
+												 
+	font-weight: bold;<br>
+	color: rgb(110, 110, 110);<br>
+											</div>
+										<div class="iai2">}</div>
+
+										<div  class="iai2">.containeraddjest{</div>
+											<div class="innerbox">
+												 
+	display: grid;<br>
+	place-items: center;<br>
+	box-shadow: 0px 10px 20px -6px black;<br>
+	z-index: -7;<br>
+	padding: 50px;<br>
+											</div>
+										<div class="iai2">}</div>
+ 
+ 
+									</div>
+
+								 
+ 
+									<div class="iai headb">
+											<tr><span class="html-tag ha1">&lt;/<span class="ha2">style<span><span class="ha1">&gt;</span></span><span class="ha1  html-end-of-file"></span></tr><br>
+									</div>
+									
+
+
+
+
+									<div class="iai headt">
+										<tr><span class="html-tag ha1">&lt;<span class="ha2">body<span><span class="ha1">&gt;</span></span></tr><br>
+									</div>
+
+ 									<div class="iai1 headt">
+										<tr><span class="html-tag ha1">&lt;<span class="ha2">div<span> class = " card "<span class="ha1">&gt;</span></span></tr><br>
+									</div>
+ 
+										<div class="iai1 headt">
+										<tr><span class="html-tag ha1">&lt;<span class="ha2">div<span> class = " img-container "<span class="ha1">&gt;</span></span></tr><br>
+									</div>
+ 										
+ 										<div class="iai1">
+										<tr><span class="html-tag ha1">&lt;<span class="ha2">img<span><span> </span><span> src="img.jpg" alt="MASK pic" height="100%" width="100%"</span><span class="ha1">&gt;</span></span></tr>
+									<span class="ai1"> <span class="classcss"></span></span>
+										<br>
+									</div>
+
+ 
+									<div class="iai1 headb">
+											<tr><span class="html-tag ha1">&lt;/<span class="ha2">div<span><span class="ha1">&gt;</span></span><span class="ha1  html-end-of-file"></span></tr><br>
+									</div>
+
+										<div class="iai1 headt">
+										<tr><span class="html-tag ha1">&lt;<span class="ha2">div<span> class = " details "<span class="ha1">&gt;</span></span></tr><br>
+									</div>
+ 
+
+
+									<div class="iai1">
+										<tr><span class="html-tag ha1">&lt;<span class="ha2">title<span><span class="ha1">&gt;</span></span></tr>
+									<span class="ai1"> code text</span>
+											<tr><span class="html-tag ha1">&lt;/<span class="ha2">title<span><span class="ha1">&gt;</span></span><span class="ha1  html-end-of-file"></span></tr><br>
+									</div>
+
+
+
+									<div class="iai1">
+										<tr><span class="html-tag ha1">&lt;<span class="ha2">h2<span><span class="ha1">&gt;</span></span></tr>
+									<span class="ai1">ALWAYS WEAR MASK</span>
+											<tr><span class="html-tag ha1">&lt;/<span class="ha2">h2<span><span class="ha1">&gt;</span></span><span class="ha1  html-end-of-file"></span></tr><br>
+									</div>
+
+									<div class="iai1">
+										<tr><span class="html-tag ha1">&lt;<span class="ha2">p<span><span class="ha1">&gt;</span></span></tr>
+									<span class="ai1">INFLUENCER</span>
+											<tr><span class="html-tag ha1">&lt;/<span class="ha2">p<span><span class="ha1">&gt;</span></span><span class="ha1  html-end-of-file"></span></tr><br>
+									</div>
+
+ 
+									<div class="iai1 headb">
+											<tr><span class="html-tag ha1">&lt;/<span class="ha2">div<span><span class="ha1">&gt;</span></span><span class="ha1  html-end-of-file"></span></tr><br>
+									</div>
+
+
+ 
+									<div class="iai1 headb">
+											<tr><span class="html-tag ha1">&lt;/<span class="ha2">div<span><span class="ha1">&gt;</span></span><span class="ha1  html-end-of-file"></span></tr><br>
+									</div>
+
+
+
+
+ 
+									<div class="iai headb">
+											<tr><span class="html-tag ha1">&lt;/<span class="ha2">body<span><span class="ha1">&gt;</span></span><span class="ha1  html-end-of-file"></span></tr><br>
+									</div>
+
+										<div class="">
+												<tr><span class="html-tag ha1">&lt;/<span class="ha2">html<span><span class="ha1">&gt;</span></span><span class="ha1  html-end-of-file"></span></tr><br>
+										</div>
+
+
+									</div>
+									
+									
+								</div>
+							</div>
+							
+						</div>
+
+ 
+				<div class="linecssa"></div>
+				<div class="boxgap"></div> 
+				<div class="boxcontent">
+					<p class="pcss">In this website all properties of programs and for webdevelopment. Any website create in this program. and all type of available.</p>
+				</div>
+				<div class="boxgap"></div>
+								<div class="btndb">
+							<button class="btnab" onclick="goBack()"> < Previous</button>
+							<button class="btnab" onclick="gonext()">Next > </button>
+							
+						</div><div class="boxgap"></div>
+					</div>
+					
+					<div class="div2b">
+						
+					</div>
+				</div>
+
+				<footer class="footercss">
+					
+
+				</footer>
+			</div>
+				
+				
+		</div>
+	</main>
+ 
+	<script src="../script/managescript.js"></script>
+</body>
+</html>

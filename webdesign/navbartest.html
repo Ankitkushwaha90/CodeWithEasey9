@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<style type="text/css">
+	*{ 
+		margin: 0px;
+		padding: 0px;
+	}
+	.demoul li{ 
+		margin-top: 3px;
+		padding-top: 3px;
+	}
+	
+	@media(min-width: 800px){
+			.demoul li:hover{ 
+				background: gray; 
+				height: 39px;
+			}
+			.active{ 
+				background: #18d5bb; 
+				height: 39px;
+			}
+			.demohome{ 
+				visibility: hidden;
+			}
+			.demoa{ 
+				height: 0px;
+			}
+			.demonav{
+				width: auto;
+				right: 5px;
+				position: all;
+				background: black;
+				height: 45px;
+			}
+			.demoheader{ 
+				position: absolute;
+				color: white;
+				font-size: 20px;
+				padding: 8px;
+			}
+			.demoul{ 
+				float: right;
+				padding-left:  5px;
+				padding-right:  5px;
+				padding-top:  0px;
+				visibility: show;
+			}
+			.demoul li{ 
+				display: inline-block;
+				color: white; 
+			    font-size: 20px;
+			    text-decoration-style: none;
+			    padding-left: 5px; 
+			    padding-right: 5px;
+			    margin-left: 5px;
+			    margin-right: 5px;
+			    text-decoration-line: none;
+			    text-align: center;
+			    cursor: pointer; 
+			    font-family: 'Open Sans Condensed', serif;
+			}
+		
+			.demonav button{  
+	 			visibility: hidden;
+			} 
+
+	}
+
+	@media(max-width: 800px){
+			.activea{ 
+				background: #18d5bb;
+			}
+			.activeb:hover{ 
+				background: gray;
+			}
+		 	.demoa{ 
+				height: 165px;
+			}
+			.demonav{
+				width: auto;
+				right: 5px;
+				position: all;
+				background: black;
+				height: 39px;
+			}
+			.demoheader{ 
+				position: absolute;
+				color: white;
+				font-size: 20px;
+				padding: 8px;
+			}
+			.demoul{ 
+				float: right;
+				padding: 5px;
+			}
+			.demoul li{ 
+				display: block;
+				color: white; 
+			    font-size: 20px;
+			    text-decoration-style: none;
+			    padding-left: 5px;
+			    padding-right: 5px;
+			    margin-left: 5px;
+			    margin-right: 5px;
+			    text-decoration-line: none;
+			    text-align: center;
+			    cursor: pointer; 
+			    font-family: 'Open Sans Condensed', serif;
+			}
+		 
+			.demoulcss{ 
+				display: block;
+			 	width: auto;
+				height: 150px;
+				width: 300px;
+				background: black; 
+			} 
+			.demoul{   
+			padding-top: 50px;
+			visibility: show;
+		}
+	}
+
+		@media(max-width: 350px){ 
+				.demoulcss{ 
+					display: block;
+				 	width: auto;
+					height: 150px;
+					width: 150px; 
+					background: black;  
+				} 
+		} 
+		
+			 
+			
+					 
+</style>
+<body>
+	<nav class="demonav">
+		<header class="demoheader">Nav_bar</header>
+		<i   id="demohome"  onclick="myFunction()" class="fa-2x fas fa-chevron-circle-down demohome" style="color: white; cursor: pointer; padding:5px;	padding-left: 20px; float: right;"></i> 
+		<ul class="demoul" id="demoul">
+			 <li class="active" href="#">Home</li> 
+			 <li class="activeb" href="#">blog</li> 
+			 <li class="activeb" href="#">Service</li> 
+			 <li class="activeb" href="#">Gallary</li> 
+
+		</ul>
+	</nav>
+
+	<script type="text/javascript"> 
+		function myFunction() {
+			var element = document.getElementById("demoul");
+			element.classList.toggle("demoulcss");
+			var hello = document.querySelector(".active");
+			hello.classList.toggle("activea");   
+		}
+	</script>
+</body>
+</html>

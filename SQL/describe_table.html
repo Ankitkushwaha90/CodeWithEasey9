@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../page/page.css">
+	<link rel="stylesheet" type="text/css" href="subnav/style.css">
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="stylesheet" type="text/css" href="../nav/nav.css">
+	<link rel="stylesheet" type="text/css" href="../main/main.css">
+	<link rel="stylesheet" type="text/css" href="../footer/footer.css">
+	<link rel="stylesheet" type="text/css" href="../header/header.css">
+	<link rel="stylesheet" type="text/css" href="../scroller/scroller.css">
+	<link rel="stylesheet" type="text/css" href="subnav/subnav.css">
+	<link rel="stylesheet" type="text/css" href="../subnav1/subnav1.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+ 	
+ 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- main tag for change////////////////////////////////////////////////// -->
+	
+	<title class="headtitle">Describe_table</title>
+	<meta name="Keywords" content="HTML,CSS,JavaScript">
+	<meta class="basetitle" name="Description" content="Description table in sql server languages | data transfer in use of webdevelopment & software."> 
+	<style>
+
+		.Describe_table{
+				display: block;
+				text-align: center;
+				text-decoration-line: none;
+				font-family: 'Montserrat', sans-serif;
+				color:  #fff;
+				font-size: 17px;
+				background:  #18d5bb;
+				padding-top: 3px;
+				padding-bottom: 3px;
+				margin: 0px;
+		}
+	</style>
+
+	<!-- main two tag for change -------------------------------------- -->
+
+	<script src="../footer/footer.js"></script>
+	<script src="../header/header.js"></script>
+	<script src="../nav/nav.js"></script>
+	<script src="../div2/div2.js"></script>
+	<script src="../subnav1/subnav1.js"></script>
+	<script src="subnav/subnav.js"></script>
+	<script src="../style/jquery-3.5.1.min.js"></script>
+</head>
+<script>
+		function goBack(){
+			window.history.back();
+		}
+	</script>
+	<script>
+		function gonext() {
+		  window.history.forward();
+		}	
+	</script>
+	<script>
+
+		$(document).ready(function(){
+			$('#menuid').click(function(){
+				$('#dividid').toggle(500);
+			});
+		});
+	</script>
+	<style>
+		#menudivv{
+			visibility: visible;
+		}
+	
+		.classid{
+			display: show;
+			color: red;
+	}
+
+	</style>
+
+	<script>
+
+		$(document).ready(function(){
+			$("#idhome").click(function(){
+ 				 $("#ulcssab").toggle(500);
+			});
+		});
+	</script>
+
+<body> 
+
+	<header class="headercss">
+	</header>
+	<nav class="navcss">
+
+		
+	</nav>
+	<main class="maincss">
+
+		<div class="div1" id="dividid">
+			
+		</div>
+		
+		<div class="div2 "><!-- scrollbar scrollbar-black bordered-black square thin -->
+ 				<div class="force-overflow">
+				<div class="div22">
+					<div class="div2a">
+						
+						<h1 class="h1css">describe or desc command in SQL</h1>
+						<div class="btndb">
+							<button class="btnab" onclick="goBack()"> < Previous</button>
+							<button class="btnab" onclick="gonext()">Next > </button>
+							
+						</div> 
+						<div class="boxgap"></div>
+						<div class="linecssa"></div> 
+						<!-- /////////////////////////////////////start div2a////////////////////////////// -->
+
+
+						<!-- start -->
+
+						<h2 class="h2css">desc command</h2>
+						<div class="a1">
+							<div class="a2">
+								<button class="btna1">copy</button>
+							</div>
+							<div class="a3">
+								<div class="codetexta4">
+									<div class="boxsqlrun">
+										
+
+MariaDB [ankit]> desc app;<br>
++-------+-------------+------+-----+---------+-------+<br>
+| Field | Type        | Null | Key | Default | Extra |<br>
++-------+-------------+------+-----+---------+-------+<br>
+| id    | int(11)     | NO   | PRI | NULL    |       |<br>
+| name  | int(11)     | YES  |     | NULL    |       |<br>
+| phone | int(11)     | YES  |     | NULL    |       |<br>
+| email | varchar(50) | YES  |     | NULL    |       |<br>
++-------+-------------+------+-----+---------+-------+<br>
+4 rows in set (0.089 sec)<br><br>
+
+MariaDB [ankit]><br>
+
+									</div>
+						
+								</div>
+							</div>
+							
+						</div>
+						<div class="boxgap"></div>  
+  
+						<!-- start -->
+
+						<h2 class="h2css">descibe command</h2>
+						<div class="a1">
+							<div class="a2">
+								<button class="btna1">copy</button>
+							</div>
+							<div class="a3">
+								<div class="codetexta4">
+									<div class="boxsqlrun">
+										
+
+
+MariaDB [ankit]> describe app;<br>
++-------+-------------+------+-----+---------+-------+<br>
+| Field | Type        | Null | Key | Default | Extra |<br>
++-------+-------------+------+-----+---------+-------+<br>
+| id    | int(11)     | NO   | PRI | NULL    |       |<br>
+| name  | int(11)     | YES  |     | NULL    |       |<br>
+| phone | int(11)     | YES  |     | NULL    |       |<br>
+| email | varchar(50) | YES  |     | NULL    |       |<br>
++-------+-------------+------+-----+---------+-------+<br>
+4 rows in set (0.118 sec)<br><br>
+
+MariaDB [ankit]><br>
+
+
+									</div>
+						
+								</div>
+							</div>
+							
+						</div>
+						<div class="boxgap"></div>  
+
+						<!-- ///////////////////////////////////////////////////////////////////////end -->
+ 
+				<div class="boxgap"></div> 
+				<div class="boxcontent">
+					<p class="pcss">In this website all properties of programs and for webdevelopment. Any website create in this program. and all type of available.</p>
+				</div>
+				<div class="boxgap"></div>
+								<div class="btndb">
+							<button class="btnab" onclick="goBack()"> < Previous</button>
+							<button class="btnab" onclick="gonext()"> Next > </button>
+							
+						</div><div class="boxgap"></div>
+					</div>
+					
+					<div class="div2b">
+						
+					</div>
+				</div>
+
+				<footer class="footercss">
+					
+
+				</footer>
+			</div>
+				
+				
+		</div>
+	</main>
+ 
+	<script src="../script/managescript.js"></script>
+</body>
+</html>
